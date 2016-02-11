@@ -1,10 +1,19 @@
+<head>
+    <title>Todo List</title>
+</head>
+
+<body>
+<div class="container">
+    {{>productPendriveFlashdriveIndex}}
+</div>
+</body>
 <template name="productPendriveFlashdriveIndex">
     {{> pendriveFlashdriveListLoop}}
 </template>
 
 
 <template name="pendriveFlashdriveListLoop">
-    {{> pendriveFlashdriveListModalAdd }}
+
     <div class="wrapper wrapper-content  animated fadeInRight">
         <div class="row">
             <div class="col-sm-12">
@@ -13,9 +22,9 @@
 
                         <div class="clients-list">
                             <ul class="nav nav-tabs">
-                                <span class="pull-right small text-muted"><a href="" class="btn btn-primary btn-xs "
-                                                                             {{b "click: openButton"}}>Add
-                                    pendrive - this is problematic</a></span>
+                                <span class="pull-right small text-muted">
+                                    <button class="btn btn-primary btn-xs "
+                                         {{b "click: openButton"}}>click me!</button></span>
                             </ul>
                             <div class="project-list">
 
@@ -42,19 +51,6 @@
 <template name="pendriveFlashdriveListLoopSingle">
     <tr>
         <td><a data-toggle="tab" href="#contact-1" class="client-link">{{name}}</a></td>
-        <td class="client-status"><span class="label label-primary">{{#if active}}Aktywny{{else}}
-            Nieaktywny{{/if}}</span></td>
-        <td class="client-status"><span class="label label-secondary">{{category}}</span></td>
-        <td>
-            <div class="btn-group">
-                <button data-toggle="dropdown" class="btn btn-default dropdown-toggle">Actions <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a {{b "click: edit" }}>EDIT</a></li>
-                    <li class="divider"></li>
-                    <li><a data-bind="click: delete">DELETE</a></li>
-                </ul>
-            </div>
-        </td>
+
     </tr>
 </template>
