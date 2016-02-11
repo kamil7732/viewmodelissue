@@ -1,0 +1,128 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+
+standard-minifiers
+meteor-base
+mobile-experience
+mongo
+blaze-html-templates
+session
+tracker
+logging
+reload
+random
+ejson
+spacebars
+check
+ecmascript
+underscore
+
+
+#less compiler
+less
+
+#bootstrap
+twbs:bootstrap
+#------------------
+
+#font awesome
+fortawesome:fontawesome
+#------------------
+
+#jquery
+jquery
+#------------------
+
+#accounts
+accounts-password
+ian:accounts-ui-bootstrap-3
+#------------------
+
+
+#accounting library
+pcel:accounting
+#------------------
+
+#moment library
+momentjs:moment
+lbee:moment-helpers
+#------------------
+
+#roles
+alanning:roles
+#------------------
+
+#composite queries
+reywood:publish-composite
+
+#jagi astronomy
+jagi:astronomy
+jagi:astronomy-validators
+jagi:astronomy-timestamp-behavior
+jagi:reactive-map
+#------------------
+
+#viewmodel
+manuel:viewmodel
+#------------------
+
+#underscore update (non MDG)
+alethes:lodash
+#------------------
+
+#dropped event
+#raix:ui-dropped-event
+#dbarrett:dropzonejs
+#------------------
+
+#router
+kadira:flow-router
+kadira:blaze-layout
+#------------------
+
+#router helpers
+arillo:flow-router-helpers
+zimme:active-route
+#------------------
+
+#cfs
+#cfs:standard-packages
+#cfs:gridfs
+#cfs:s3
+#cfs:filesystem
+#cfs:graphicsmagick
+#------------------
+
+#pagination
+tmeasday:publish-counts
+miguelalarcos:flow-router-pagination
+#------------------
+
+#node npm packages
+#meteorhacks:npm
+#meteorhacks:async
+#npm-container
+
+#------------------
+
+#speed up subscriptions
+#meteorhacks:subs-manager
+#------------------
+
+#additional meteor functions
+#http
+#------------------
+
+#reactive calendar
+#gquemart:meteor-reactive-fullcalendar
+#------------------
+
+#tools
+#meteortoys:allthings
+#------------------
+
+#end point of manual edition
