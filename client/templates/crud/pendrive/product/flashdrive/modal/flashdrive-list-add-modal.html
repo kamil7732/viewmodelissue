@@ -1,0 +1,28 @@
+<template name="pendriveFlashdriveListModalAdd">
+    <div class="modal inmodal" id="createSupplierModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content animated fadeIn">
+                <div class="modal-body">
+                    <h3 class="m-t-none m-b">Nowe/edytujesz pendrive</h3>
+
+                    <p>Just type in the name</p>
+
+
+                    <div class="form-group">
+                        <label>name</label>
+                        <input type="text" placeholder="name" class="form-control" {{b "value: name"}}/>
+
+                        <input type="checkbox" {{b "check: active"}}/> <i></i> just a random checkbox no need to check?
+                    </div>
+                    <div>
+                        <button class="btn btn-sm btn-primary pull-right m-t-n-xs " type="submit"
+                                {{b "click: add"}}><strong>add/edit</strong></button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
